@@ -1,45 +1,45 @@
 {
   "semantics": [
     {
-      "label": "Header"
+      "label": "Antraštė"
     },
     {
-      "label": "Task description"
+      "label": "Užduoties aprašymas"
     },
     {
-      "label": "Statements",
+      "label": "Aprašymai",
       "fields": [
         {
-          "label": "Statements",
-          "entity": "statement",
+          "label": "Teiginiai",
+          "entity": "teiginys",
           "field": {
-            "label": "Statement"
+            "label": "Teiginys"
           }
         }
       ]
     },
     {
-      "label": "Summary",
-      "default": "Summary"
+      "label": "Santrauka",
+      "default": "Santrauka"
     },
     {
-      "label": "Summary instruction"
+      "label": "Santraukos instrukcija"
     },
     {
-      "label": "Resources",
+      "label": "Ištekliai",
       "fields": [
         {
-          "label": "Resources",
-          "description": "Optional links to resources."
+          "label": "Ištekliai",
+          "description": "Pasirenkamos nuorodos į išteklius."
         }
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control the behaviour.",
+      "label": "Veikimo nustatymai",
+      "description": "Šie parametrai padės jums kontroliuoti veikimą.",
       "fields": [
         {
-          "label": "Enable retry?",
+          "label": "Įjungti bandymą iš naujo?",
           "description": "Tick off this if you want the user to be able to retry"
         },
         {
@@ -108,7 +108,7 @@
         },
         {
           "label": "Header in 'Restart' popover",
-          "default": "Are you sure you wish to restart?"
+          "default": "Ar tikrai norite paleisti iš naujo?"
         },
         {
           "label": "Placeholder for the summary box",

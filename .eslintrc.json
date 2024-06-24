@@ -1,87 +1,52 @@
 {
   "globals": {
-    "H5P": true,
-    "H5PIntegration": true,
-    "H5PEditor": true,
     "Mustache": true
   },
   "env": {
     "es6": true,
-    "browser": true
+    "browser": true,
+    "node": true
   },
   "extends": [
     "eslint:recommended",
+    "eslint-config-ndla-h5p",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:jsdoc/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 9,
-    "sourceType": "module"
+    "requireConfigFile": false,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module",
+    "ecmaVersion": 2020
   },
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "jsdoc": {
+      "preferredTypes": {
+        "Function": "function"
+      }
     }
   },
   "plugins": [
     "react",
-    "jsx-a11y"
+    "jsx-a11y",
+    "jsdoc"
   ],
   "rules": {
     "valid-jsdoc": "off",
-    "semi": [
-      2,
-      "always"
-    ],
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
-    "brace-style": [
-      "error",
-      "stroustrup"
-    ],
-    "keyword-spacing": [
-      "error",
-      {
-        "after": true
-      }
-    ],
-    "comma-spacing": [
-      "error",
-      {
-        "before": false,
-        "after": true
-      }
-    ],
-    "space-before-blocks": "error",
-    "space-before-function-paren": [
-      "error",
-      {
-        "anonymous": "always",
-        "named": "never",
-        "asyncArrow": "always"
-      }
-    ],
-    "no-extra-boolean-cast": "off",
-    "no-console": [
-      "error",
-      {
-        "allow": [
-          "warn",
-          "error"
-        ]
-      }
-    ],
     "no-restricted-globals": [
       2,
       "event"
     ],
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/jsx-uses-vars": [2],
+    "react/jsx-uses-react": [2]
   }
 }

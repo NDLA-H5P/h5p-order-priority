@@ -1,0 +1,233 @@
+{
+  "semantics": [
+    {
+      "label": "Kichwa"
+    },
+    {
+      "label": "Maelezo ya kazi"
+    },
+    {
+      "label": "Kauli",
+      "fields": [
+        {
+          "label": "Statements",
+          "entity": "statement",
+          "field": {
+            "label": "Statement"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Msingi",
+      "default": "Msingi"
+    },
+    {
+      "label": "Maelekezo ya muhtasari"
+    },
+    {
+      "label": "Rasilimali",
+      "fields": [
+        {
+          "label": "Resources",
+          "description": "Optional links to resources."
+        }
+      ]
+    },
+    {
+      "label": "Mipangilio ya tabia",
+      "description": "Chaguzi hizi zitakuwezesha kudhibiti tabia hiyo.",
+      "fields": [
+        {
+          "label": "Washa jaribu tena?",
+          "description": "Weka tiki kwenye hii ikiwa unataka mtumiaji aweze kujaribu tena"
+        },
+        {
+          "label": "Jaza taarifa mapema kwenye kauli hizo",
+          "description": "Mtumiaji anaanza na kauli ambazo tayari zimeagizwa"
+        },
+        {
+          "label": "Badilisha kauli hizo bila mpangilio",
+          "description": "Itabadilisha kauli hizo zilizojazwa taarifa bila mpangilio"
+        },
+        {
+          "label": "Idadi ya viwanja vya kutua"
+        },
+        {
+          "label": "Ruhusu watumiaji kuongeza kauli zao wenyewe",
+          "description": "Ruhusu watumiaji kuongeza kauli zao wenyewe"
+        },
+        {
+          "label": "Onyesha maoni yaliyotolewa chini ya kauli",
+          "description": "Ikiwa mtumiaji ametoa maoni, hii inaonyeshwa kwenye orodha ya kauli"
+        },
+        {
+          "label": "Onyesha muhtasari",
+          "description": "Unataka mtumiaji atoe muhtasari unaoeleza sababu za majibu yake"
+        }
+      ]
+    },
+    {
+      "label": "Janibisha",
+      "fields": [
+        {
+          "label": "Kishika nafasi cha visanduku vya maandishi",
+          "default": "Fafanua juu ya uamuzi wako"
+        },
+        {
+          "label": "Lebo ya kitufe cha \"Rasilimali\"",
+          "default": "Rasilimali"
+        },
+        {
+          "label": "Lebo ya kitufe cha \"Anzisha tena\"",
+          "default": "Anzisha tena"
+        },
+        {
+          "label": "Lebo ya kitufe cha \"Ongeza mbadala\"",
+          "default": "Ongeza mbadala"
+        },
+        {
+          "label": "Lebo ya kitufe cha “Endelea” katika mazungumzo ya kuanzisha tena",
+          "default": "Endelea"
+        },
+        {
+          "label": "Lebo ya kitufe cha “Ghairi” katika mazungumzo ya kuanzisha tena",
+          "default": "Ghairi"
+        },
+        {
+          "label": "Mjulishe mtumiaji kwamba data itapotea ikiwa ataendelea",
+          "default": "Mabadiliko yote yatapotea. Una uhakika unataka kuendelea?"
+        },
+        {
+          "label": "Maandishi yaliyoonyeshwa katika kitufe cha ‘Wasilisha' wakati wa kuunda waraka",
+          "default": "Wasilisha"
+        },
+        {
+          "label": "Maandishi yaliyoonyeshwa baada ya kuwasilisha",
+          "default": "Imehifadhiwa!"
+        },
+        {
+          "label": "Kichwa katika umaskini wa Anzisha tena",
+          "default": "Una uhakika unataka kuanza upya?"
+        },
+        {
+          "label": "Kishikanafasi cha sanduku la muhtasari",
+          "default": "Toa muhtasari mfupi kwa maneno yako mwenyewe"
+        },
+        {
+          "label": "Document export",
+          "default": "Document export"
+        },
+        {
+          "label": "Document export description",
+          "default": "On this page you can choose to export your answers."
+        },
+        {
+          "label": "No statements set",
+          "default": "No statements to prioritize were set!"
+        }
+      ]
+    },
+    {
+      "label": "Ripoti ya rasilimali",
+      "fields": [
+        {
+          "label": "Lebo ya kitufe cha \"Unda waraka\"",
+          "default": "Unda waraka"
+        },
+        {
+          "label": "Lebo kwenye kitufe cha \"Pakua na Tuma\"",
+          "default": "Pakua na Tuma"
+        },
+        {
+          "label": "Lebo kwenye kitufe cha \"Chagua yote\"",
+          "default": "Chagua yote"
+        },
+        {
+          "label": "Task description",
+          "default": "Task description"
+        },
+        {
+          "label": "Kichwa cha kauli katika jedwali la kauli",
+          "default": "Kauli"
+        },
+        {
+          "label": "Kichwa cha maoni katika jedwali la kauli",
+          "default": "Maoni"
+        },
+        {
+          "label": "Kichwa juu ya jedwali la \"Rasilimali\"",
+          "default": "Rasilimali"
+        },
+        {
+          "label": "Kichwa cha utangulizi katika jedwali la rasilimali",
+          "default": "Utangulizi"
+        },
+        {
+          "label": "Kichwa cha vipataji rasilimali sawa katika jedwali la rasilimali",
+          "default": "Url"
+        },
+        {
+          "label": "Kichwa cha \"Maoni ya muhtasari\"",
+          "default": "Maoni ya muhtasari"
+        },
+        {
+          "label": "Weka lebo wakati hakuna muhtasari unaotolewa",
+          "default": "Hakuna maoni"
+        }
+      ]
+    },
+    {
+      "label": "Ufikiaji",
+      "fields": [
+        {
+          "label": "Ongeza maoni",
+          "default": "Ongeza maoni"
+        },
+        {
+          "label": "Lebo ya 'kitu kinachoweza kuburutwa' kwa visomaji skrini",
+          "default": "Kitu cha kuburutwa"
+        },
+        {
+          "label": "Jina la safu wima ya kauli",
+          "description": "Hii ni safu wima yenye kauli unazotoa",
+          "default": "Kauli"
+        },
+        {
+          "label": "Jina la safu wima iliyopewa kipaumbele",
+          "description": "Hii ni safu wima ambapo kauli zinawekwa kwa utaratibu",
+          "default": "Iliyopewa kipaumbele"
+        },
+        {
+          "label": "Ujumbe unaosomeka kwa msomaji skrini wakati kuburutwa inahamishwa ndani ya orodha hiyo",
+          "description": "Vigezo vinavyopatikana ni:startPosition, :endPosition na:listLength",
+          "default": "Umehamisha kitu kutoka nafasi yake :startPositionhadi nafasi :endPosition kati ya :listLength"
+        },
+        {
+          "description": "Vigezo vinavyopatikana ni :startListName, :startPosition, :startListLength, :endPosition, :destinationListName, :destinationPosition na :destinationListLength",
+          "label": "Ujumbe unaosomeka kwa msomaji skrini wakati kuburutwa inahamishwa hadi orodha nyingine",
+          "default": "Umehamisha kipengee kutoka kwenye orodha :startListNamekatika nafasi:startPosition kati ya:startListLength hadi orodha:destinationListNamekatika nafasi :destinationPositionkati ya :destinationListLength"
+        },
+        {
+          "description": "Available variables are :itemId and :droppableId.",
+          "label": "Message read to the screen reader when draggable is dropped over dropzone",
+          "default": "Draggable item :itemId was dropped over droppable area :droppableId."
+        },
+        {
+          "description": "Available variable is :itemId.",
+          "label": "Message read to the screen reader when draggable is dropped",
+          "default": "Draggable item :itemId was dropped."
+        },
+        {
+          "description": "Available variable is :itemId.",
+          "label": "Message read to the screen reader when dragging was cancelled",
+          "default": "Draggable item :itemId was dropped."
+        },
+        {
+          "label": "Ujumbe unaosomeka kwa msomaji wa skrini kabla ya kuingia sehemu yenye kauli hizo",
+          "default": "Ili kuingiliana na sehemu inayofuata baadhi ya wasomaji wa skrini wanahitaji uwe katika hali ya kuzingatia"
+        }
+      ]
+    }
+  ]
+}

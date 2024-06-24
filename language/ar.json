@@ -1,0 +1,233 @@
+{
+  "semantics": [
+    {
+      "label": "رأس"
+    },
+    {
+      "label": "وصف المهام"
+    },
+    {
+      "label": "العبارات",
+      "fields": [
+        {
+          "label": "Statements",
+          "entity": "statement",
+          "field": {
+            "label": "Statement"
+          }
+        }
+      ]
+    },
+    {
+      "label": "الأساس",
+      "default": "الأساس"
+    },
+    {
+      "label": "ملخص التعليمات"
+    },
+    {
+      "label": "الموارد",
+      "fields": [
+        {
+          "label": "Resources",
+          "description": "Optional links to resources."
+        }
+      ]
+    },
+    {
+      "label": "الإعدادات السلوكية",
+      "description": "ستتيح لك هذه الخيارات التحكم في سلوك المهمة.",
+      "fields": [
+        {
+          "label": "تفعيل خيار إعادة المحاولة؟",
+          "description": "ضع علامة على هذا الخيار إذا كنت تريد أن يكون المستخدم قادراً على إعادة المحاولة"
+        },
+        {
+          "label": "التعبئة المسبقة للبيانات",
+          "description": "يبدأ المستخدم بالعبارات المطلوبة أولًا"
+        },
+        {
+          "label": "الترتيب العشوائي للعبارات",
+          "description": "سيرتب هذا الخيار العبارات المعبئة مسبقاً بصورة عشوائية"
+        },
+        {
+          "label": "عدد المجالات المقصودة"
+        },
+        {
+          "label": "إتاحة إضافة العبارات للمستخدمين",
+          "description": "السماح للمستخدمين بإضافة عباراتهم"
+        },
+        {
+          "label": "عرض التعليقات المقدمة أسفل العبارة",
+          "description": "إذا قدم المستخدم تعليقاً، فإنه سيظهر في قائمة العبارات"
+        },
+        {
+          "label": "عرض الملخص",
+          "description": "هل تريد أن يقدم المستخدم ملخصاً يشرح أسباب إجاباته/إجاباتها"
+        }
+      ]
+    },
+    {
+      "label": "توطين",
+      "fields": [
+        {
+          "label": "حيز مخصص لمربعات النصوص",
+          "default": "اشرح قرارك"
+        },
+        {
+          "label": "وسم لزر الموارد",
+          "default": "الموارد"
+        },
+        {
+          "label": "وسم لزر البدء مرة أخرى",
+          "default": "البدء مرة أخرى"
+        },
+        {
+          "label": "وسم لزر إضافة بديل",
+          "default": "إضافة بديل"
+        },
+        {
+          "label": "تسمية لزر الاستمرار في نافذة الإعادة",
+          "default": "متابعة"
+        },
+        {
+          "label": "تسمية لزر ”الإلغاء“ في نافذة الإعادة",
+          "default": "الإلغاء"
+        },
+        {
+          "label": "إبلاغ المستخدم بأن تغييرات البيانات ستُفقَد عند الاستمرار",
+          "default": "جميع تغييرات البيانات ستفقد. هل أنت متأكد أنك ترغب في أن تستمر؟"
+        },
+        {
+          "label": "النص المعروض بزر ”إرسال“ عند إنشاء وثيقة",
+          "default": "إرسال"
+        },
+        {
+          "label": "النص المعروض بعد الإرسال",
+          "default": "تم الحفظ!"
+        },
+        {
+          "label": "رأس جزء ”إعادة البدء“ المنبثق",
+          "default": "هل أنت متأكد أنك تريد إعادة تشغيل؟"
+        },
+        {
+          "label": "حيز مخصص لمربع الملخص",
+          "default": "قدّم ملخصاً موجزًا بكلماتك"
+        },
+        {
+          "label": "Document export",
+          "default": "Document export"
+        },
+        {
+          "label": "Document export description",
+          "default": "On this page you can choose to export your answers."
+        },
+        {
+          "label": "No statements set",
+          "default": "No statements to prioritize were set!"
+        }
+      ]
+    },
+    {
+      "label": "تقرير الموارد",
+      "fields": [
+        {
+          "label": "تسمية زر ”إنشاء مستند\"",
+          "default": "إنشاء مستند"
+        },
+        {
+          "label": "تسمية زر ”التصدير\"",
+          "default": "تصدير"
+        },
+        {
+          "label": "تسمية زر ”اختيار الكل\"",
+          "default": "اختيار الكل"
+        },
+        {
+          "label": "Task description",
+          "default": "Task description"
+        },
+        {
+          "label": "رأس العبارات في جدول العبارات",
+          "default": "العبارات"
+        },
+        {
+          "label": "رأس التعليقات في جدول العبارات",
+          "default": "تعليقات"
+        },
+        {
+          "label": "الرأس أعلى جدول ”الموارد\"",
+          "default": "الموارد"
+        },
+        {
+          "label": "رأس المقدمة في جدول الموارد",
+          "default": "المقدمة"
+        },
+        {
+          "label": "رأس روابط الإنترنت في جدول الموارد",
+          "default": "روابط الإنترنت"
+        },
+        {
+          "label": "رأس \"تعليقات الملخص\"",
+          "default": "تعليقات الملخص"
+        },
+        {
+          "label": "تسمية عدم وجود ملخص",
+          "default": "التعليقات غير موجودة"
+        }
+      ]
+    },
+    {
+      "label": "إمكانية الوصول",
+      "fields": [
+        {
+          "label": "إضافة تعليق",
+          "default": "إضافة تعليق"
+        },
+        {
+          "label": "تسمية ”العنصر القابل للسحب“ لقارئ الشاشة",
+          "default": "عنصر قابل للسحب"
+        },
+        {
+          "label": "اسم عمود العبارات",
+          "description": "هذا هو العمود الذي يتضمن العبارات التي تقدمها",
+          "default": "العبارات"
+        },
+        {
+          "label": "اسم العمود ذي الأولوية",
+          "description": "هذا هو العمود الذي تُوضع فيه العبارات بترتيب",
+          "default": "ذو الأولوية"
+        },
+        {
+          "label": "قراءة الرسالة على قارئ الشاشة عند انتقال السحب ضمن القائمة ذاتها",
+          "description": "المتغيرات المتاحة :startPosition، و:endPosition، و :listLength",
+          "default": "لقد نقلت العنصر من الموضع :startPositionإلى الموضع :endPosition :listLength"
+        },
+        {
+          "description": "المتغيرات المتاحة :startListName، و:startPosition، و:startListLength، و:endPosition، و:destinationListName، و:destinationPosition، و :destinationListLength",
+          "label": "قراءة الرسالة على قارئ الشاشة عند انتقال السحب إلى قائمة أخرى",
+          "default": "لقد نقلت العنصر من القائمة :startListName في الموضع :startPosition :startListLength إلى القائمة :destinationListName في الموضع :destinationPosition :destinationListLength"
+        },
+        {
+          "description": "Available variables are :itemId and :droppableId.",
+          "label": "Message read to the screen reader when draggable is dropped over dropzone",
+          "default": "Draggable item :itemId was dropped over droppable area :droppableId."
+        },
+        {
+          "description": "Available variable is :itemId.",
+          "label": "Message read to the screen reader when draggable is dropped",
+          "default": "Draggable item :itemId was dropped."
+        },
+        {
+          "description": "Available variable is :itemId.",
+          "label": "Message read to the screen reader when dragging was cancelled",
+          "default": "Draggable item :itemId was dropped."
+        },
+        {
+          "label": "قراءة الرسالة على قارئ الشاشة قبل دخول القسم الذي يتضمن العبارات",
+          "default": "تتطلب بعض أنواع قارئ الشاشة أن تكون في وضع التركيز من أجل التفاعل مع القسم التالي"
+        }
+      ]
+    }
+  ]
+}

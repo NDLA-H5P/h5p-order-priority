@@ -1,0 +1,233 @@
+{
+  "semantics": [
+    {
+      "label": "Cabeçalho"
+    },
+    {
+      "label": "Descrição da tarefa"
+    },
+    {
+      "label": "Afirmações",
+      "fields": [
+        {
+          "label": "Statements",
+          "entity": "statement",
+          "field": {
+            "label": "Statement"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Base",
+      "default": "Base"
+    },
+    {
+      "label": "Instruções resumidas"
+    },
+    {
+      "label": "Recursos",
+      "fields": [
+        {
+          "label": "Resources",
+          "description": "Optional links to resources."
+        }
+      ]
+    },
+    {
+      "label": "Configurações comportamentais",
+      "description": "Estas opções permitirão controlar o comportamento.",
+      "fields": [
+        {
+          "label": "Activar Tentar Novamente?",
+          "description": "Assinale aqui se quiser que o utilizador tente novamente"
+        },
+        {
+          "label": "Pré-preencher as afirmações",
+          "description": "O utilizador começa com as instruções já ordenadas"
+        },
+        {
+          "label": "Seleciona aleatoriamente as afirmações",
+          "description": "Irá selecionar aleatoriamente as declarações pré-preenchidas"
+        },
+        {
+          "label": "Número de campo de aterragem"
+        },
+        {
+          "label": "Permitir que os utilizadores adicionem suas próprias afirmações",
+          "description": "Permite que o utilizador adicione suas próprias afirmações"
+        },
+        {
+          "label": "Exiba os comentários fornecidos abaixo da afirmação",
+          "description": "Se o utilizador deu um comentário, o mesmo aparece na lista de afirmações"
+        },
+        {
+          "label": "Mostrar Resumo",
+          "description": "Deseja que o utilizador faça um resumo explicando os motivos para suas respostas"
+        }
+      ]
+    },
+    {
+      "label": "Localizar",
+      "fields": [
+        {
+          "label": "Marcador de posição para as caixas de texto",
+          "default": "Argumente a sua decisão"
+        },
+        {
+          "label": "Notificação do botão `Recursos`",
+          "default": "Recursos"
+        },
+        {
+          "label": "Notificação do botão Reiniciar",
+          "default": "Reiniciar"
+        },
+        {
+          "label": "Notificação do botão \"Adicionar alternativa\"",
+          "default": "Adicionar alternativa"
+        },
+        {
+          "label": "Notificação para o botão \"Continuar\" na caixa de diálogo de reinicialização",
+          "default": "Continuar"
+        },
+        {
+          "label": "Notificação para o botão \"Cancelar\" na caixa de diálogo de reinicialização",
+          "default": "Cancelar"
+        },
+        {
+          "label": "Informe o utilizador que os dados serão eliminados se continuar",
+          "default": "Todas as alterações serão perdidas. Tem certeza que deseja continuar?"
+        },
+        {
+          "label": "Texto exibido no botão 'Enviar' ao criar um documento",
+          "default": "Enviar"
+        },
+        {
+          "label": "Texto exibido após o envio",
+          "default": "Gravado!"
+        },
+        {
+          "label": "Cabeçalho no popover 'Reiniciar",
+          "default": "Tem certeza de que deseja reiniciar?"
+        },
+        {
+          "label": "Marcador de posição para a caixa de resumo",
+          "default": "Faça um breve resumo em palavras suas"
+        },
+        {
+          "label": "Document export",
+          "default": "Document export"
+        },
+        {
+          "label": "Document export description",
+          "default": "On this page you can choose to export your answers."
+        },
+        {
+          "label": "No statements set",
+          "default": "No statements to prioritize were set!"
+        }
+      ]
+    },
+    {
+      "label": "Relatório de recursos",
+      "fields": [
+        {
+          "label": "Notificação do botão \"Criar Documento\"",
+          "default": "Criar documento"
+        },
+        {
+          "label": "Notificação do botão Exportar",
+          "default": "Exportar"
+        },
+        {
+          "label": "Notificação do botão Selecionar tudo",
+          "default": "Selecionar tudo"
+        },
+        {
+          "label": "Task description",
+          "default": "Task description"
+        },
+        {
+          "label": "Cabeçalho da afirmação na tabela de afirmações",
+          "default": "Afirmações"
+        },
+        {
+          "label": "Cabeçalho do comentário na tabela de afirmações",
+          "default": "Comentário"
+        },
+        {
+          "label": "Cabeçalho acima da tabela Recurso",
+          "default": "Recursos"
+        },
+        {
+          "label": "Cabeçalho de introdução na tabela de recursos",
+          "default": "Introdução"
+        },
+        {
+          "label": "Cabeçalho de URL na tabela de recursos",
+          "default": "Url"
+        },
+        {
+          "label": "Cabeçalho para \"Comentário de resumo\"",
+          "default": "Comentário de resumo"
+        },
+        {
+          "label": "Notificação quando nenhum resumo é fornecido",
+          "default": "Sem comentários"
+        }
+      ]
+    },
+    {
+      "label": "Acessibilidade",
+      "fields": [
+        {
+          "label": "Adicionar comentário",
+          "default": "Adicionar comentário"
+        },
+        {
+          "label": "Notificação 'artigo arrastável' para os leitores de ecrã",
+          "default": "Artigo arrastável"
+        },
+        {
+          "label": "Nome da coluna de afirmações",
+          "description": "Esta é a coluna com as afirmações que fornece",
+          "default": "Afirmações"
+        },
+        {
+          "label": "Nome da coluna priorizada",
+          "description": "Esta é a coluna onde as afirmações são colocadas em ordem",
+          "default": "Priorizado"
+        },
+        {
+          "label": "Mensagem lida para o leitor de ecrã quando ao arrastar permanece dentro da mesma lista",
+          "description": "As variáveis disponíveis são :startPosition, :endPosition e :listLength",
+          "default": "Moveu o artigo da posição :startPosition para a posição :endPosition de :listLength"
+        },
+        {
+          "description": "As variáveis disponíveis são :startListName, :startPosition, :startListLength, :endPosition, :destinationListName, :destinationPosition e :destinationListLength",
+          "label": "Mensagem lida para o leitor de ecrã quando ao arrastar permanece dentro da mesma lista",
+          "default": "Moveu o artigo da lista :startListName na posição :startPosition de :startListLength para a lista :destinationListName na posição :destinationPosition de :destinationListLength"
+        },
+        {
+          "description": "Available variables are :itemId and :droppableId.",
+          "label": "Message read to the screen reader when draggable is dropped over dropzone",
+          "default": "Draggable item :itemId was dropped over droppable area :droppableId."
+        },
+        {
+          "description": "Available variable is :itemId.",
+          "label": "Message read to the screen reader when draggable is dropped",
+          "default": "Draggable item :itemId was dropped."
+        },
+        {
+          "description": "Available variable is :itemId.",
+          "label": "Message read to the screen reader when dragging was cancelled",
+          "default": "Draggable item :itemId was dropped."
+        },
+        {
+          "label": "Mensagem lida para o leitor de ecrã antes de entrar na secção com as afirmações",
+          "default": "Para interagir com a próxima secção, alguns leitores de ecrã exigem que esteja no modo de foco"
+        }
+      ]
+    }
+  ]
+}
